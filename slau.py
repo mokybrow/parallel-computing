@@ -26,5 +26,5 @@ while eps > 1e-3: # цикл, выполняющий продвижение
     #разности компонент двух #векторов
     xn = xn1 # обновление вектора текущего приближения 
     num_iter = num_iter +1
-    print(eps,num_iter)
+    print(f"EPS: {eps}, num_iter: {num_iter}")
 print(xn) # вывод полученного решения

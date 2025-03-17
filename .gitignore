@@ -4,6 +4,11 @@
 *.ptx
 *.cubin
 *.fatbin
+*.exe
+*.lib
+*.exp
+
+.venv
 
 poetry.lock
 pyproject.toml
